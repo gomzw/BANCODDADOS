@@ -2,8 +2,8 @@
 
 :root{
     --bg-color: #ffffff;
-    --primary-color: #0084ff;
-    --secundary-color: #030303;
+    --primary-color: #6dc9c4;
+    --secundary-color: #000000;
     --font: "Nunito Sans", sans-serif;
 }
 
@@ -43,4 +43,14 @@ nav a{
 nav a:hover{
     text-decoration:overline;
     transform: scale(0.90);
+}
+
+ footer{
+ 
+display: flex;
+align-content: center;
+justify-content: center;
+background-color: var(--primary-color);
+color:var(--bg-color)
+
 }
